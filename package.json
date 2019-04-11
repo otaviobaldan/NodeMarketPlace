@@ -1,0 +1,41 @@
+{
+  "name": "MarketPlaceApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/node": "^5.0.7",
+    "bcryptjs": "^2.4.3",
+    "editorconfig": "^0.15.3",
+    "express": "^4.16.4",
+    "express-async-handler": "^1.1.4",
+    "express-handlebars": "^3.0.2",
+    "express-validation": "^1.0.2",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "kue": "^0.11.6",
+    "mongoose": "^5.4.19",
+    "mongoose-paginate": "^5.0.3",
+    "nodemailer": "^6.0.0",
+    "nodemailer-express-handlebars": "^3.0.0",
+    "require-dir": "^1.2.0",
+    "youch": "^2.0.10"
+  },
+  "devDependencies": {
+    "dotenv": "^7.0.0",
+    "eslint": "^5.15.3",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.18.10"
+  }
+}
