@@ -1,5 +1,4 @@
 const Purchase = require('../models/Purchase')
-const Ad = require('../models/Ad')
 
 class AcceptController {
   async store (req, res) {
